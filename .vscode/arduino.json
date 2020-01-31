@@ -1,0 +1,7 @@
+{
+    "programmer": "AVR ISP",
+    "board": "arduino:avr:uno",
+    "sketch": "Code.ino",
+    "port": "COM4",
+    "output": "C:\\Users\\Sholastik\\Development\\Arduino\\ArduinoOutput"
+}
