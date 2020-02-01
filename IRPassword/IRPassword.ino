@@ -10,7 +10,6 @@ Connect IR signal pin to receiverPin
 const int receiverPin = 7;
 const String PASSWORD = "1020+-+#";
 
-const int baudRate = 9600;
 int pos = 0;
 bool unlocked = false, correct = true;
 
@@ -106,7 +105,6 @@ inline const void decode(const unsigned long value)
 
 void setup()
 {
-  Serial.begin(baudRate);
   ir.enableIRIn();
   ir.blink13(true);
 }
